@@ -1,0 +1,208 @@
+/*
+Theme Name:         Sage Starter Theme
+Theme URI:          https://roots.io/sage/
+Description:        Sage is a WordPress starter theme. <a href="https://github.com/roots/sage">Contribute on GitHub</a>
+Version:            8.1.1
+Author:             Roots
+Author URI:         https://roots.io/
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+/*.title {
+  font-size: 36px;
+}
+
+@media only screen and (max-device-width : 1212px){
+  .navbar .navbar-nav>li>a {
+	  padding: 10px 4px;
+	  margin: 15px 3px;
+  }       
+  .has-image.page-header .title {
+    color: #fff;
+    margin-top: 0;
+    padding-left: 12px;
+    position: relative;
+    top: 62px;
+    background-color: rgba(10, 140, 192, 0.95);
+  }
+}
+
+@media only screen and (max-device-width : 480px){
+  .forcefullwidth_wrapper_tp_banner {
+    margin-top:0px!important;
+  }
+}*/
+
+aside.sidebar .sub-menu{
+  padding-left: 0px !important;
+}
+aside.sidebar .sub-menu li:last-child{
+  border-bottom: 0px solid #fff !important;
+}
+
+/*.sidebar{
+  width: auto !important;
+}*/
+
+/* NOTE: Remove this from Less files 
+*/
+  .main{
+      /*float:left;*/
+      /*width:66.66666667%*/
+  }
+  .sidebar{
+      /*float:left;*/
+      /*width:33.33333333%*/
+  }
+
+.sidebar {
+    padding: 33px 15px 5px;
+    width: 378px;
+}
+.sidebar-primary .main{
+  /*float:right!important;*/
+  /*width:66.66666667%*/
+}
+aside.sidebar.affix{
+  position:fixed;
+  top:70px;
+  width: 378px;
+}
+
+@media screen and (max-width: 1200px) {
+  aside.sidebar{
+    width: 100% !important;
+  }
+  .wrap > .sidebar-start.pull-left{
+    width: 100% !important;
+  }
+}
+aside.sidebar{
+    margin-top: 12px;  
+}
+
+/* frm_opt_container
+*/
+@media screen and (min-width: 590px) {
+  .survey .frm_opt_container .frm_radio{
+    width: 64px;
+    float: left;
+  }
+  .survey .frm_style_formidable-style.with_frm_style .frm_left_container .frm_error {
+    margin-left: 326px; 
+  }
+  .survey .frm_half .frm_error {
+    margin-left: 69px !important;  
+  }
+}
+.survey .frm_opt_container .frm_radio:first-child,
+.survey .frm_opt_container .frm_radio:last-child{
+  width: 98px;
+}
+.survey .frm_style_formidable-style.with_frm_style .frm_left_container label.frm_primary_label{
+  width: 316px;
+}
+.survey .frm_style_formidable-style.with_frm_style .frm_half label.frm_primary_label{
+  width: 70px;
+}
+.survey .custom-text p{
+  padding-left: 12px;
+}
+
+.with_frm_style .frm_submit{
+  text-align: center;
+}
+.has-image.page-header .title{
+    padding-top: 68px !important;
+}
+.card .image{
+  margin-bottom: 0px !important;
+}
+body .main{
+  overflow: hidden;  
+}
+iframe {
+  border: 0px;
+}
+/*rgb(51,​ 51,​ 51)*/
+
+.subscribe-dg .form-group input::-webkit-input-placeholder
+.subscribe-dg .form-group input:-ms-input-placeholder{
+  color: orange;
+}
+.subscribe-dg .form-group input::-moz-placeholder { 
+  color: orange;
+  opacity: 1;
+}
+section.subscribe-dg{
+  margin-top: 0px !important;
+}
+
+.card .meta div{
+  display: inline-block;
+}
+
+.posts-navigation{
+  padding: 20px 14px;
+}
+
+.sidebar a:hover{
+  border-bottom: 0px solid #ccc !important;
+}
+.sidebar .widget_categories h3,
+.sidebar .widget_recent_entries h3{}
+
+.sidebar .widget_categories ul,
+.sidebar .widget_recent_entries ul{
+  padding-left: 0px;
+}
+
+.sidebar .widget_categories ul li ,
+.sidebar .widget_recent_entries ul li{
+  border-bottom: 1px solid #fff;
+  padding:6px 0;
+}
+
+.sidebar .widget_categories ul li a,
+.sidebar .widget_recent_entries ul li a{
+  color:white;
+}
+.sidebar .widget_categories ul li a:hover,
+.sidebar .widget_recent_entries ul li a:hover{
+  text-decoration: none;
+}
+
+li.menu-1300-82-84-83 a:before{
+  top: 4px !important;
+}
+
+.archive .card .image img {
+  width: auto !important;
+  height: 100% !important;
+}
+
+/* helper Classes
+*/
+.padding-left-none{
+  padding-left: 0px !important;
+}
+
+footer.footer{
+  margin-top:50px;
+}
+/* this css will only be used when the screen size is min 800px
+*/
+@media screen and (min-width: 900px) {
+  .our-team .content .thumbnail{
+    min-height: 340px;
+  }
+  .our-team .content .thumbnail a.btn{
+    position: absolute !important; 
+    bottom: 10px;
+  }
+}
+
+body.contact-us .page-header .title{
+	margin-left: 224px;
+}

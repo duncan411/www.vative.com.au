@@ -1,0 +1,55 @@
+.home-slider {
+	margin-top: 70px;
+	.item{
+		height: 404px;
+	}
+	.carousel-inner .item {
+		.bg-img{
+			border-radius: 0px;
+			width: 100%;
+		}
+		.content{
+			position: absolute;
+			width: 39%;
+			left: 6%;
+			top: 2%;
+
+			h1{
+				color: #fff;
+			    display: block;
+			    font: bold 46px "AvenirLTStd-Heavy","Open Sans",Arial,sans-serif;
+			    position: relative;
+			}
+			 p{
+				color: #fff;
+				display: block;
+			    font: 18px "AvenirLTStd-Heavy","Open Sans",Arial,sans-serif;
+			    margin-top: 10px;
+			    position: relative;
+			}
+		}
+	}
+}
+
+@media @not-desktop {
+	.home-slider .item{
+		overflow: hidden;
+	}
+	.home-slider {
+		.carousel-inner .item .bg-img{
+			width: auto;
+			max-width: 1000px;
+			height: 100%;
+			position: absolute;
+			right: 0;
+		}
+		.content{
+			width: 88% !important;
+			left: 7% !important;
+			top: 16% !important;
+			h1{
+				font-size:30px !important;
+			}
+		}
+	}
+}

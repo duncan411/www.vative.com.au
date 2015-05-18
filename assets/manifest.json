@@ -1,0 +1,47 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+        
+      ],
+
+      "vendor": [
+        "scripts/gsd/demo.js",
+        "scripts/gsd/get-shit-done.js",
+        "scripts/gsd/gsdk-bootstrapswitch.js",
+        "scripts/gsd/gsdk-checkbox.js",
+        "scripts/gsd/gsdk-morphing.js",
+        "scripts/gsd/gsdk-radio.js",
+        "scripts/gsd/jquery.tagsinput.js",
+        
+        "scripts/gsd/jquery-ui-1.10.4.custom.min.js",
+        "scripts/gsd/bootstrap-select.js",
+        "scripts/gsd/chartist.min.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.less",
+        "styles/gsdk.less",
+        "styles/examples.css"
+      ],
+      "main": true
+    },
+    "editor-style.css": {
+      "files": [
+        "styles/editor-style.less"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    }
+  },
+  "config": {
+    "devUrl": "http://staging7.www.vative.com.au"
+  }
+}
